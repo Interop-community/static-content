@@ -1,0 +1,17 @@
+{
+  "software_id": "CdsHooksSandbox:v1",
+  "client_name": "CDS Hooks Sandbox",
+  "logo_uri": "https://content.interop.community/CdsHooks.png",
+  "launch_url": "http://sandbox.cds-hooks.org/launch.html",
+  "redirect_uris": [
+    "http://sandbox.cds-hooks.org/"
+  ],
+  "scope": "launch online_access openid profile patient/*.* user/*.* ",
+  "token_endpoint_auth_method": "none",
+  "grant_types": [
+    "authorization_code"
+  ],
+  "fhir_versions": [
+    "1.0.2"
+  ]
+}
